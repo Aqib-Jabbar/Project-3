@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background: rgb(201, 159, 159); */
+}
+.menuContainer {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+
+}
+.menuBox{
+    padding: 10px 0;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 5px gray;
+}
+.menuBox #img {
+    height: 400px;
+    width: 400px;
+    object-fit:cover ;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1,h2 {
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 5px 0;
+}
+p {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.btn {
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    background-color: rgb(92, 92, 95);
+    color: aliceblue;
+    border:none;
+    margin: 3px;
+    padding: 5px;
+}
